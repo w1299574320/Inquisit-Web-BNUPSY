@@ -154,11 +154,12 @@
 </text>
 
 
+
 //定义trials，我们需要定义两类trial，共9个trial，因为对于颜色一致的词，我们的正确反应键定位F；对于颜色不一致的词，我们的正确反应键定义为F。另外，还有一个是指导语的trial
 ======================================================================================================================================================================
 <trial instruction>
 	/validresponse = (anyresponse)
-	/stimulustimes = [1=instructiontxt; 200=anykeytxt]
+	/stimulustimes = [1=instructiontxt，anykeytxt]
 	/recorddata = false
 </trial>
 
